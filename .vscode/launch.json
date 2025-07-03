@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-mcp-learning}/server",
+            "name": "Debug MyMcpServer (server)",
+            "program": "${workspaceFolder:swift-mcp-learning}/server/.build/debug/MyMcpServer",
+            "preLaunchTask": "swift: Build Debug MyMcpServer (server)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-mcp-learning}/server",
+            "name": "Release MyMcpServer (server)",
+            "program": "${workspaceFolder:swift-mcp-learning}/server/.build/release/MyMcpServer",
+            "preLaunchTask": "swift: Build Release MyMcpServer (server)"
+        }
+    ]
+}
